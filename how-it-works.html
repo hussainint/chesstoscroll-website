@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How ChessToScroll Works | Lock Apps, Solve, Earn Time</title>
+  <meta name="description" content="Pick the apps, grant two Android permissions, and solve a mate puzzle when your minutes run out. Time bank, daily streaks, and four puzzle levels.">
+  <link rel="canonical" href="https://chesstoscroll.com/how-it-works.html">
+  <meta name="theme-color" content="#0E0C0A">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ChessToScroll">
+  <meta property="og:title" content="How ChessToScroll Works | Lock Apps, Solve, Earn Time">
+  <meta property="og:description" content="Permissions in plain language, the time bank, daily streaks, and mate puzzles from 1 to 4 moves.">
+  <meta property="og:url" content="https://chesstoscroll.com/how-it-works.html">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://chesstoscroll.com/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How ChessToScroll Works">
+  <meta name="twitter:description" content="Lock apps, solve a chess puzzle, earn minutes back.">
+  <meta name="twitter:image" content="https://chesstoscroll.com/og.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://chesstoscroll.com/" },
+          { "@type": "ListItem", "position": 2, "name": "How it works", "item": "https://chesstoscroll.com/how-it-works.html" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How does ChessToScroll lock an app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You pick the app, then turn the lock on. Nothing is locked during the first pick. When you open a locked app and your minutes are gone, a puzzle covers the screen. You can solve it or go home. Solving adds minutes and opens the app."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which Android permissions does it need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Two. Usage access lets ChessToScroll notice when a locked app opens. Display over other apps lets the puzzle cover that app until you solve it or go home. Both are required for the lock."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many minutes does a puzzle add?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Easy, mate in 1, adds 1 minute by default. Medium, mate in 2, adds 1 minute. Hard, mate in 3, adds 5 minutes. Super Hard, mate in 4, adds 10 minutes. In Profile, Puzzle time can set each level from 1 to 60 minutes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ChessToScroll need an account?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Progress, locked apps, the streak, and earned time stay on the phone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is ChessToScroll a parental control app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It is a self-control tool for the person using the phone. It is not a chess course."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is ChessToScroll on iPhone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not yet. ChessToScroll is on Android now. There is no iOS link yet."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="bar">
+      <a class="logo" href="index.html">
+        <img src="favicon.svg" width="36" height="36" alt="">
+        <span>ChessToScroll</span>
+      </a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle">
+      <label class="nav-burger" for="nav-toggle"><span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span></label>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <a href="how-it-works.html" aria-current="page">How it works</a>
+        <a class="btn" href="https://play.google.com/store/apps/details?id=com.hintapp.chesslock" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M4.4 2.6c-.5.4-.7 1.1-.7 1.9v15c0 .8.2 1.5.7 1.9l.1.1 8.8-8.8v-.2L4.5 2.5l-.1.1zm9.6 9.1 2.6 2.6-9.1 5.2c-.6.4-1.2.3-1.5-.1l8-7.7zm2.6-2.6L14 11.7 6 4.1c.3-.4.9-.5 1.5-.1l8.1 5.1zm.8.5 2.3 1.3c.8.5.8 1.2 0 1.7l-2.3 1.3-2.8-2.8 2.8-1.5z"/></svg>
+          Get it on Google Play
+        </a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <header class="page-head">
+      <div class="wrap prose">
+        <nav class="crumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <span>How it works</span>
+        </nav>
+        <h1>How ChessToScroll works</h1>
+        <p class="lede">Lock the apps that pull you in. Solve a short checkmate puzzle when your minutes run out. Earn the time back.</p>
+        <div class="hero-actions">
+          <a class="btn" href="https://play.google.com/store/apps/details?id=com.hintapp.chesslock" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M4.4 2.6c-.5.4-.7 1.1-.7 1.9v15c0 .8.2 1.5.7 1.9l.1.1 8.8-8.8v-.2L4.5 2.5l-.1.1zm9.6 9.1 2.6 2.6-9.1 5.2c-.6.4-1.2.3-1.5-.1l8-7.7zm2.6-2.6L14 11.7 6 4.1c.3-.4.9-.5 1.5-.1l8.1 5.1zm.8.5 2.3 1.3c.8.5.8 1.2 0 1.7l-2.3 1.3-2.8-2.8 2.8-1.5z"/></svg>
+            Get it on Google Play
+          </a>
+        </div>
+        <p class="fine">On Android now. iOS is on the way. No account.</p>
+        <nav class="onpage" aria-label="On this page">
+          <a href="#setup">Set it up</a>
+          <a href="#permissions">Permissions</a>
+          <a href="#time-bank">Time bank</a>
+          <a href="#streaks">Streak</a>
+          <a href="#puzzles">Puzzle levels</a>
+          <a href="#inside">Inside the app</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="block" id="setup" aria-labelledby="setup-title">
+      <div class="wrap prose">
+        <h2 id="setup-title">Set it up</h2>
+        <ol class="setup-list">
+          <li>
+            <span class="num">1</span>
+            <p>Pick the apps that pull you in, such as Instagram, YouTube, or TikTok. Nothing is locked during this first pick.</p>
+          </li>
+          <li>
+            <span class="num">2</span>
+            <p>Tell the app your chess rating, or how much chess you know if you have no rating. Puzzles are matched to that level.</p>
+          </li>
+          <li>
+            <span class="num">3</span>
+            <p>Choose a goal: reduce screen time, improve chess, build a daily habit, stay focused, or scroll less at night.</p>
+          </li>
+          <li>
+            <span class="num">4</span>
+            <p>Grant two Android permissions. Usage access lets the app notice when a locked app opens. Display over other apps lets the puzzle cover that app until it is solved. Both are required for the lock.</p>
+          </li>
+          <li>
+            <span class="num">5</span>
+            <p>Lock one app now. More can be locked later.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="block" id="permissions" aria-labelledby="permissions-title">
+      <div class="wrap">
+        <div class="intro">
+          <h2 id="permissions-title">Two permissions, in plain language</h2>
+          <p>The lock needs both. You can turn them off later in Android settings. If either one is off, the lock cannot run.</p>
+        </div>
+        <div class="cards two">
+          <article class="card">
+            <h3>Usage access</h3>
+            <p>Android uses this so an app can tell which other app is open. ChessToScroll uses it to notice when a locked app opens. It does not read messages, photos, passwords, or what you type.</p>
+          </article>
+          <article class="card">
+            <h3>Display over other apps</h3>
+            <p>This lets the puzzle sit on top of the locked app until you solve it or go home. Without it, the lock cannot cover the screen.</p>
+          </article>
+        </div>
+        <div class="prose">
+          <p class="boundary">There is no account. Progress, locked apps, the streak, and earned time stay on the phone.</p>
+          <p><a class="btn" href="https://play.google.com/store/apps/details?id=com.hintapp.chesslock" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M4.4 2.6c-.5.4-.7 1.1-.7 1.9v15c0 .8.2 1.5.7 1.9l.1.1 8.8-8.8v-.2L4.5 2.5l-.1.1zm9.6 9.1 2.6 2.6-9.1 5.2c-.6.4-1.2.3-1.5-.1l8-7.7zm2.6-2.6L14 11.7 6 4.1c.3-.4.9-.5 1.5-.1l8.1 5.1zm.8.5 2.3 1.3c.8.5.8 1.2 0 1.7l-2.3 1.3-2.8-2.8 2.8-1.5z"/></svg>
+            Get it on Google Play
+          </a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="time-bank" aria-labelledby="bank-title">
+      <div class="wrap">
+        <div class="intro">
+          <h2 id="bank-title">The time bank</h2>
+          <p>Minutes you earn sit in one bank. While the bank has time, locked apps open as usual. When it hits zero, the next open shows a full-screen lock: “Solve a puzzle to unlock.”</p>
+        </div>
+        <ol class="flow">
+          <li><span class="num">1</span><p>Solve a puzzle.</p></li>
+          <li><span class="num">2</span><p>Minutes land in the bank.</p></li>
+          <li><span class="num">3</span><p>Locked apps open while time remains.</p></li>
+          <li><span class="num">4</span><p>At zero, the puzzle covers the next open.</p></li>
+        </ol>
+        <div class="prose">
+          <p>If one app is locked, that app is unlocked for the remaining time. If several are locked, all of them are unlocked until the bank runs out. Spend the minutes, or keep them for later.</p>
+          <p>The Time tab also has a button to play a puzzle and earn more time before you open a locked app. Solving adds the minutes and, on the lock screen, opens the app.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="streaks" aria-labelledby="streak-title">
+      <div class="wrap prose">
+        <h2 id="streak-title">The daily streak</h2>
+        <p>The streak continues when you solve at least one puzzle a day. Stats shows the current streak and your best streak, along with puzzles solved and time earned, by day and by week.</p>
+      </div>
+    </section>
+
+    <section class="block" id="puzzles" aria-labelledby="puzzles-title">
+      <div class="wrap">
+        <div class="intro">
+          <h2 id="puzzles-title">Four puzzle levels</h2>
+          <p>Checkmate puzzles. You play one side. The app plays the opponent’s replies. A hint can be shown on the board. Puzzle level can be changed later. Your rating, or how much chess you know, is what matches the puzzles to you.</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>Default minutes added when you solve a puzzle</caption>
+            <thead>
+              <tr>
+                <th scope="col">Level</th>
+                <th scope="col">Puzzle</th>
+                <th scope="col">Default reward</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Easy</th>
+                <td>Mate in 1</td>
+                <td>1 minute</td>
+              </tr>
+              <tr>
+                <th scope="row">Medium</th>
+                <td>Mate in 2</td>
+                <td>1 minute</td>
+              </tr>
+              <tr>
+                <th scope="row">Hard</th>
+                <td>Mate in 3</td>
+                <td>5 minutes</td>
+              </tr>
+              <tr>
+                <th scope="row">Super Hard</th>
+                <td>Mate in 4</td>
+                <td>10 minutes</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="prose">In Profile, Puzzle time lets you set each level from 1 to 60 minutes.</p>
+      </div>
+    </section>
+
+    <section class="block" id="inside" aria-labelledby="inside-title">
+      <div class="wrap">
+        <div class="intro">
+          <h2 id="inside-title">Inside the app</h2>
+          <p>Three tabs. The same minutes, streak, and locks are on each of them.</p>
+        </div>
+        <div class="cards three">
+          <article class="card">
+            <h3>Time</h3>
+            <p>Minutes available, the streak, locked apps, and a button to play a puzzle and earn more time. One locked app stays open for the remaining time. Several locked apps all stay open until the bank runs out.</p>
+          </article>
+          <article class="card">
+            <h3>Stats</h3>
+            <p>Daily and weekly views of puzzles solved, time earned, current streak, best streak, and which locked apps used the most time.</p>
+          </article>
+          <article class="card">
+            <h3>Apps</h3>
+            <p>Search the apps installed on your phone. Lock or unlock them.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="self-control" aria-labelledby="self-title">
+      <div class="wrap prose">
+        <h2 id="self-title">A self-control tool</h2>
+        <p>ChessToScroll is for the person holding the phone. Beginners and rated players both fit, because difficulty follows the level they give. Parental controls and chess courses are different products.</p>
+      </div>
+    </section>
+
+    <section class="block" id="faq" aria-labelledby="faq-title">
+      <div class="wrap">
+        <h2 id="faq-title">Questions</h2>
+        <div class="faq">
+          <details>
+            <summary>How does ChessToScroll lock an app?</summary>
+            <p>You pick the app, then turn the lock on. Nothing is locked during the first pick. When you open a locked app and your minutes are gone, a puzzle covers the screen. You can solve it or go home. Solving adds minutes and opens the app.</p>
+          </details>
+          <details>
+            <summary>Which Android permissions does it need?</summary>
+            <p>Two. Usage access lets ChessToScroll notice when a locked app opens. Display over other apps lets the puzzle cover that app until you solve it or go home. Both are required for the lock.</p>
+          </details>
+          <details>
+            <summary>How many minutes does a puzzle add?</summary>
+            <p>Easy, mate in 1, adds 1 minute by default. Medium, mate in 2, adds 1 minute. Hard, mate in 3, adds 5 minutes. Super Hard, mate in 4, adds 10 minutes. In Profile, Puzzle time can set each level from 1 to 60 minutes.</p>
+          </details>
+          <details>
+            <summary>Does ChessToScroll need an account?</summary>
+            <p>No. Progress, locked apps, the streak, and earned time stay on the phone.</p>
+          </details>
+          <details>
+            <summary>Is ChessToScroll a parental control app?</summary>
+            <p>No. It is a self-control tool for the person using the phone. It is not a chess course.</p>
+          </details>
+          <details>
+            <summary>Is ChessToScroll on iPhone?</summary>
+            <p>Not yet. ChessToScroll is on Android now. There is no iOS link yet.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="close-title">
+      <div class="wrap">
+        <h2 id="close-title">Play a chess puzzle to earn screen time.</h2>
+        <p class="promise">Screen time should go down. Your chess should get better.</p>
+        <a class="btn" href="https://play.google.com/store/apps/details?id=com.hintapp.chesslock" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M4.4 2.6c-.5.4-.7 1.1-.7 1.9v15c0 .8.2 1.5.7 1.9l.1.1 8.8-8.8v-.2L4.5 2.5l-.1.1zm9.6 9.1 2.6 2.6-9.1 5.2c-.6.4-1.2.3-1.5-.1l8-7.7zm2.6-2.6L14 11.7 6 4.1c.3-.4.9-.5 1.5-.1l8.1 5.1zm.8.5 2.3 1.3c.8.5.8 1.2 0 1.7l-2.3 1.3-2.8-2.8 2.8-1.5z"/></svg>
+          Get it on Google Play
+        </a>
+        <p class="fine">Questions: <a href="mailto:support@chesstoscroll.com">support@chesstoscroll.com</a></p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">
+          <img src="favicon.svg" width="36" height="36" alt="">
+          <span>ChessToScroll</span>
+        </a>
+        <p>Solve a chess puzzle before you scroll.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="how-it-works.html" aria-current="page">How it works</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <div>
+        <p class="fine">Support</p>
+        <address><a href="mailto:support@chesstoscroll.com">support@chesstoscroll.com</a></address>
+        <a class="btn" href="https://play.google.com/store/apps/details?id=com.hintapp.chesslock" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M4.4 2.6c-.5.4-.7 1.1-.7 1.9v15c0 .8.2 1.5.7 1.9l.1.1 8.8-8.8v-.2L4.5 2.5l-.1.1zm9.6 9.1 2.6 2.6-9.1 5.2c-.6.4-1.2.3-1.5-.1l8-7.7zm2.6-2.6L14 11.7 6 4.1c.3-.4.9-.5 1.5-.1l8.1 5.1zm.8.5 2.3 1.3c.8.5.8 1.2 0 1.7l-2.3 1.3-2.8-2.8 2.8-1.5z"/></svg>
+          Get it on Google Play
+        </a>
+      </div>
+    </div>
+    <div class="wrap legal-line">
+      <p>Android app available now. iOS is on the way.</p>
+      <p>© 2026 Ray Viral Lab. ChessToScroll.</p>
+      <p>Google Play and Android are trademarks of Google LLC. iOS is a trademark of Apple Inc.</p>
+    </div>
+  </footer>
+</body>
+</html>

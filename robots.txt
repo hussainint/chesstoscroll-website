@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /og-card.html
+
+Sitemap: https://chesstoscroll.com/sitemap.xml
