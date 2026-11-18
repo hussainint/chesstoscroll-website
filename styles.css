@@ -278,14 +278,6 @@ a {
   overflow: visible;
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse at 82% 18%, rgba(255, 176, 32, 0.16), transparent 52%);
-  pointer-events: none;
-}
-
 .hero h1 {
   font-size: clamp(2.5rem, 4.6vw, 4.15rem);
   max-width: 11em;
@@ -315,6 +307,13 @@ a {
 
 .phone-figure {
   margin: 28px 0 0;
+}
+
+.phone-demo {
+  display: block;
+  width: min(100%, 280px);
+  height: auto;
+  margin-inline: auto;
 }
 
 .phone {
@@ -979,8 +978,11 @@ address a {
     margin-top: 0;
   }
 
-  .phone {
+  .phone,
+  .phone-demo {
     margin-inline: 0;
+    width: 320px;
+    max-width: 100%;
   }
 }
 
@@ -1035,6 +1037,30 @@ address a {
   .facts {
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;
+  }
+}
+
+@media (max-width: 839px) {
+  body {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(1.9rem, 8.2vw, 2.35rem);
+    max-width: none;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .lede,
+  .hero .lede {
+    font-size: 1rem;
   }
 }
 
