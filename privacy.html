@@ -4,20 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy | ChessToScroll</title>
-  <meta name="description" content="ChessToScroll does not require an account. Settings stay on your phone. Read how Accessibility and Usage Access are used.">
+  <meta name="description" content="No account. ChessToScroll keeps settings on your phone and sends anonymous usage events to PostHog. Read what the lock can see.">
   <link rel="canonical" href="https://chesstoscroll.com/privacy.html">
   <meta name="theme-color" content="#0E0C0A">
   <meta name="robots" content="index,follow">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="ChessToScroll">
   <meta property="og:title" content="Privacy Policy | ChessToScroll">
-  <meta property="og:description" content="ChessToScroll does not require an account. Settings stay on your phone.">
+  <meta property="og:description" content="No account. Settings stay on your phone. Anonymous usage events go to PostHog.">
   <meta property="og:url" content="https://chesstoscroll.com/privacy.html">
   <meta property="og:locale" content="en_US">
   <meta property="og:image" content="https://chesstoscroll.com/og.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Privacy Policy | ChessToScroll">
-  <meta name="twitter:description" content="ChessToScroll does not require an account. Settings stay on your phone.">
+  <meta name="twitter:description" content="No account. Settings stay on your phone. Anonymous usage events go to PostHog.">
   <meta name="twitter:image" content="https://chesstoscroll.com/og.png">
   <link rel="icon" href="logo.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
@@ -29,7 +29,7 @@
         "@type": "WebPage",
         "name": "Privacy Policy",
         "url": "https://chesstoscroll.com/privacy.html",
-        "dateModified": "2026-06",
+        "dateModified": "2026-11-18",
         "isPartOf": "https://chesstoscroll.com/",
         "about": "ChessToScroll"
       },
@@ -69,175 +69,68 @@
           <span>Privacy</span>
         </nav>
         <h1>Privacy Policy</h1>
-        <p class="fine">Last updated <time datetime="2026-06">June 2026</time></p>
-        <p>Welcome to <strong>ChessToScroll</strong> (“we,” “our,” or “us”). Your privacy is important to us. This Privacy Policy explains how ChessToScroll collects, uses, and protects information when you use our mobile application.</p>
-        <p>By using ChessToScroll, you agree to the practices described in this Privacy Policy.</p>
+        <p class="fine">Last updated <time datetime="2026-11-18">18 November 2026</time></p>
+        <p>ChessToScroll is operated by Ray Viral Lab (“we”, “us”). This policy explains what the ChessToScroll Android app and this website do with information.</p>
+        <p>Contact: <a href="mailto:chesstoscroll@gmail.com">chesstoscroll@gmail.com</a></p>
+        <p>ChessToScroll lets you lock apps you choose and earn time on those apps by solving chess puzzles. There is no account and no login.</p>
 
-        <h2>About ChessToScroll</h2>
-        <p>ChessToScroll is a digital wellbeing and screen time management application that helps users reduce distractions by requiring chess challenges before accessing selected apps.</p>
-        <p>ChessToScroll does <strong>not require account creation, registration, or login</strong> to use the app.</p>
-
-        <h2>Information we collect</h2>
-        <h3>Information you provide</h3>
-        <p>ChessToScroll does not collect personal information such as:</p>
+        <h2>Information that stays on your phone</h2>
+        <p>The app stores the following in local storage on your device:</p>
         <ul>
-          <li>Name</li>
-          <li>Email address</li>
-          <li>Phone number</li>
-          <li>Postal address</li>
-          <li>Date of birth</li>
-          <li>Profile information</li>
+          <li>Language, chess rating or chess level, and the goals you choose during setup</li>
+          <li>The apps you mark as interesting and the apps you lock</li>
+          <li>Reward minutes, earned time, streaks, puzzles solved, and a local log of earned time and time used in locked apps</li>
         </ul>
-        <p>Since there is no login or account system, we do not maintain user accounts.</p>
+        <p>Uninstalling the app or clearing its data deletes this from the phone. We do not sell it.</p>
 
-        <h3>App usage information</h3>
-        <p>To provide core functionality, the app may process certain information locally on your device, including:</p>
+        <h2>Apps on your device</h2>
+        <p>If you grant the permissions, the app can:</p>
         <ul>
-          <li>Apps selected for blocking or restriction</li>
-          <li>Chess challenge settings</li>
-          <li>Usage preferences</li>
-          <li>Focus and screen-time settings</li>
-          <li>App configuration data</li>
+          <li>See the list of installed apps, so you can pick which ones to lock</li>
+          <li>Check which app is in the foreground, so it can show the lock screen for apps you locked</li>
+          <li>Read how long apps have been in the foreground over the last 7 days, so the Apps tab can show a Most used group with those times</li>
+          <li>Draw over other apps, so the lock screen can cover a locked app</li>
+          <li>Run a foreground service and start again after the phone restarts, so the lock can keep working</li>
         </ul>
-        <p>This information is stored locally on your device and is not transmitted to our servers.</p>
+        <p>The app does not use Android’s Accessibility Service. It does not read messages, passwords, or what you type in other apps.</p>
 
-        <h3>Device information</h3>
-        <p>Depending on the features used, the app may access limited device-related information such as:</p>
+        <h2>Analytics</h2>
+        <p>ChessToScroll uses PostHog, hosted in the United States at <a href="https://us.i.posthog.com">https://us.i.posthog.com</a>, to understand how the app is used and to fix problems. PostHog may receive:</p>
         <ul>
-          <li>Android version</li>
-          <li>Device model</li>
-          <li>App version</li>
+          <li>An anonymous identifier and app opens</li>
+          <li>Language, chess rating or level, and the goals you selected</li>
+          <li>Package names of apps you show interest in, lock, unlock, or that open the lock screen</li>
+          <li>Puzzle events, such as difficulty, whether you solved or left a puzzle, and whether you used a hint</li>
+          <li>Streak, puzzles solved, and earned minutes</li>
+          <li>Whether you granted Usage access or Display over other apps</li>
+          <li>For the Most used group, the package name, minutes of use, and rank of those apps</li>
         </ul>
-        <p>This information is used solely to ensure app functionality and compatibility.</p>
+        <p>We use this to operate and improve ChessToScroll. We do not sell it, and we do not use it to build an advertising profile.</p>
 
-        <h2>Accessibility Service usage</h2>
-        <p>ChessToScroll may use Android Accessibility Services to provide app-blocking and screen control features.</p>
-        <p>Accessibility permissions are used exclusively to:</p>
+        <h2>Other services</h2>
+        <p>The app may request the Poppins font from Google Fonts. Google can receive your IP address as part of that request.</p>
+        <p>If you rate the app from the in-app prompt, or open the Play Store listing, Google handles that under its own terms.</p>
+        <p>If you share the app, the content goes only to the app you pick.</p>
+
+        <h2>This website</h2>
+        <p>If you open this site, the host may keep standard server logs such as IP address, browser type, and the page requested, so the site can run and stay secure.</p>
+
+        <h2>Children</h2>
+        <p>ChessToScroll is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has sent us personal information, email <a href="mailto:chesstoscroll@gmail.com">chesstoscroll@gmail.com</a> and we will delete it.</p>
+
+        <h2>How long we keep information</h2>
+        <p>Local app data stays on the device until you clear it or uninstall the app. Analytics events stay in PostHog for as long as we need them to understand and fix the product. You can ask us to delete analytics linked to you by emailing <a href="mailto:chesstoscroll@gmail.com">chesstoscroll@gmail.com</a>. Because there is no account, include the approximate time and the apps involved so we can find the record.</p>
+
+        <h2>Your choices</h2>
         <ul>
-          <li>Detect when a selected app is opened</li>
-          <li>Display chess challenges before access is granted</li>
-          <li>Enforce user-configured screen-time restrictions</li>
+          <li>You can turn off Usage access and Display over other apps in Android settings. The lock will not work without them.</li>
+          <li>You can clear the app’s storage or uninstall it to delete local data.</li>
+          <li>You can email <a href="mailto:chesstoscroll@gmail.com">chesstoscroll@gmail.com</a> to ask what analytics we hold or to ask us to delete it.</li>
         </ul>
-        <p>ChessToScroll does <strong>not</strong> use Accessibility Services to:</p>
-        <ul>
-          <li>Read personal messages</li>
-          <li>Collect passwords</li>
-          <li>Monitor keystrokes</li>
-          <li>Record screen content</li>
-          <li>Collect personal data for advertising purposes</li>
-        </ul>
-        <p>Accessibility data is processed only as required for the app’s functionality.</p>
+        <p>If privacy law where you live gives you the right to access, correct, delete, or object to certain processing, or to complain to a regulator, you can use those rights. For people in the European Economic Area and the United Kingdom, we rely on our legitimate interest in understanding and securing the app for analytics, and on providing the lock you set up for processing on the device.</p>
 
-        <h2>Permissions used by ChessToScroll</h2>
-        <h3>Accessibility Service permission</h3>
-        <p>ChessToScroll uses Android’s Accessibility Service solely to provide its core app-blocking functionality.</p>
-        <p>The Accessibility Service is used to:</p>
-        <ul>
-          <li>Detect when a blocked application is opened</li>
-          <li>Display a chess challenge before access is granted</li>
-          <li>Enforce user-configured focus sessions and digital detox rules</li>
-          <li>Help users reduce distractions and limit access to selected applications</li>
-        </ul>
-        <p>ChessToScroll does not use Accessibility Services to:</p>
-        <ul>
-          <li>Read personal messages</li>
-          <li>Capture text entered in other apps</li>
-          <li>Record passwords</li>
-          <li>Monitor browsing activity</li>
-          <li>Collect sensitive personal information</li>
-          <li>Sell or share user data</li>
-        </ul>
-        <p>All Accessibility Service usage is limited to the functionality described above.</p>
-
-        <h3>Usage Access Permission</h3>
-        <p>ChessToScroll uses Android’s Usage Access Permission to:</p>
-        <ul>
-          <li>Identify which applications are currently active</li>
-          <li>Determine when a blocked application is launched</li>
-          <li>Measure app usage duration for digital wellbeing features</li>
-          <li>Provide screen time insights and statistics</li>
-        </ul>
-        <p>This information is processed locally on the device and is used only to provide the app’s functionality.</p>
-
-        <h2>Data collection and storage</h2>
-        <p>ChessToScroll does not require user accounts and does not collect personally identifiable information such as:</p>
-        <ul>
-          <li>Names</li>
-          <li>Email addresses</li>
-          <li>Phone numbers</li>
-          <li>Home addresses</li>
-          <li>Payment information</li>
-        </ul>
-        <p>Most data, including app settings, blocked app selections, and screen time preferences, is stored locally on your device.</p>
-
-        <h2>Data sharing</h2>
-        <p>ChessToScroll does not sell, rent, or share user data with advertisers, data brokers, or third parties.</p>
-        <p>Information collected through Accessibility Services and Usage Access Permission is never sold or used for advertising purposes.</p>
-
-        <h2>Data security</h2>
-        <p>Any information processed by ChessToScroll is used only for app functionality and is handled using reasonable security practices designed to protect user data.</p>
-
-        <h2>How we use information</h2>
-        <p>Information processed by ChessToScroll is used solely to:</p>
-        <ul>
-          <li>Provide digital detox features</li>
-          <li>Enable app blocking functionality</li>
-          <li>Display chess challenges</li>
-          <li>Store user preferences</li>
-          <li>Improve app performance and reliability</li>
-        </ul>
-        <p>We do not use your information for advertising profiling.</p>
-
-        <h2>Data sharing</h2>
-        <p>We do not sell, rent, trade, or share your personal information with third parties.</p>
-        <p>Since ChessToScroll does not maintain user accounts or collect personal information, we generally have no personal data to share.</p>
-
-        <h2>Third-party services</h2>
-        <p>ChessToScroll may use third-party services for analytics, crash reporting, or app performance monitoring.</p>
-        <p>These providers may collect limited technical information according to their own privacy policies.</p>
-        <p>Examples may include:</p>
-        <ul>
-          <li>Google Play Services</li>
-          <li>Firebase Analytics</li>
-          <li>Firebase Crashlytics</li>
-        </ul>
-        <p>If such services are used, data collection is governed by the respective provider’s privacy policies.</p>
-
-        <h2>Data storage</h2>
-        <p>Most app data is stored locally on your device.</p>
-        <p>We do not operate user databases containing personal information.</p>
-        <p>You may remove locally stored app data at any time by:</p>
-        <ul>
-          <li>Clearing app data through Android settings</li>
-          <li>Uninstalling the application</li>
-        </ul>
-
-        <h2>Data security</h2>
-        <p>We take reasonable measures to protect app data and maintain the security of our application.</p>
-        <p>However, no method of electronic storage or transmission is completely secure, and we cannot guarantee absolute security.</p>
-
-        <h2>Children’s privacy</h2>
-        <p>We do not knowingly collect personal information from children.</p>
-        <p>If you believe a child has provided personal information through the app, please contact us and we will take appropriate action.</p>
-
-        <h2>Your rights</h2>
-        <p>Depending on your jurisdiction, you may have rights regarding your personal information, including:</p>
-        <ul>
-          <li>Accessing information about data processing</li>
-          <li>Requesting deletion of data</li>
-          <li>Objecting to certain processing activities</li>
-        </ul>
-        <p>Since ChessToScroll stores most information locally on your device and does not maintain user accounts, many requests can be fulfilled by deleting app data or uninstalling the app.</p>
-
-        <h2>Changes to this Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time.</p>
-        <p>Any changes will be reflected by updating the “Last Updated” date at the top of this page.</p>
-        <p>Continued use of ChessToScroll after updates constitutes acceptance of the revised Privacy Policy.</p>
-
-        <h2>Contact us</h2>
-        <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-        <p><strong>Email:</strong> <a href="mailto:chesstoscroll@gmail.com">chesstoscroll@gmail.com</a></p>
-        <p><strong>App name:</strong> ChessToScroll</p>
+        <h2>Changes</h2>
+        <p>We will post updates on this page and change the date above. If a change materially expands what we collect, we will also surface it in the app when that is practical.</p>
       </div>
     </article>
   </main>
