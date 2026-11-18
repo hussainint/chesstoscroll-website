@@ -180,9 +180,10 @@ a {
 }
 
 .logo img {
-  width: 36px;
-  height: 36px;
+  width: 48px;
+  height: 48px;
   max-width: none;
+  object-fit: contain;
 }
 
 .nav {
@@ -1051,9 +1052,37 @@ address a {
 .store-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
   align-items: center;
-  margin: 22px 0 12px;
+  margin: 22px 0 4px;
+}
+
+.store-link {
+  display: inline-flex;
+  line-height: 0;
+  border-radius: 10px;
+}
+
+.store-link:hover {
+  opacity: 0.88;
+}
+
+.badge {
+  display: block;
+  width: auto;
+}
+
+.badge-play {
+  height: 60px;
+  width: 155px;
+  max-width: none;
+  margin: -10px;
+}
+
+.badge-ios {
+  height: 40px;
+  width: 120px;
+  max-width: none;
 }
 
 .soon {
