@@ -667,6 +667,10 @@ a {
   text-decoration: none;
 }
 
+p a.btn + a.text-link {
+  margin-left: 14px;
+}
+
 .table-wrap {
   overflow-x: auto;
   margin: 8px 0 12px;
